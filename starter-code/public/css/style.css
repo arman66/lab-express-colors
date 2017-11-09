@@ -1,0 +1,28 @@
+.colorBlocks {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 22px;
+    border: 1px solid;
+}
+ .colorBox {
+    width: 245px;
+    height: 177px;
+ }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    width: 88em;
+}

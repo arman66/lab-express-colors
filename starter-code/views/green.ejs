@@ -1,0 +1,14 @@
+<h2>GREEN</h2>
+<ul>
+  <% colorArray.forEach((oneColor)=>{%>
+    <% if (oneColor.category === 'green') {%>
+<div class="colorBlocks">
+  <li>
+  <input class='colorBox' type='color' value= '<%=oneColor.hex%>' >
+  <p><%= oneColor.keyword + " " + oneColor.hex%> </p>
+  </li>
+    <% } %>
+</div>
+<%  })%>
+
+</ul>
